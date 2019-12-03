@@ -4,4 +4,4 @@ server:
 
 spring:
   application:
-    name: hello-server
+    name: eureka-server

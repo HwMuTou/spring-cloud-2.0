@@ -4,3 +4,13 @@ server:
 spring:
   application:
     name: hello-server
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+feign:
+  hystrix:
+    enabled: true

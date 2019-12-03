@@ -6,6 +6,6 @@ spring:
     name: hystrix-server
 
 turbine:
-  app-config: hello-server,math-server
+  app-config: hello-server, math-server
   # must add the config
   clusterNameExpression: new String("default")

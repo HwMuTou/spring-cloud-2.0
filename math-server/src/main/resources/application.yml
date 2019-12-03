@@ -1,7 +1,11 @@
 server:
   port: 9091
 
-
 spring:
   application:
     name: math-server
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
