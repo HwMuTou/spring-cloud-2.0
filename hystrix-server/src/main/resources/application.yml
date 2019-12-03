@@ -1,0 +1,11 @@
+server:
+  port: 9098
+
+spring:
+  application:
+    name: hystrix-server
+
+turbine:
+  app-config: hello-server,math-server
+  # must add the config
+  clusterNameExpression: new String("default")

@@ -1,0 +1,21 @@
+server:
+  port: 9080
+
+spring:
+  application:
+    name: gateway-server
+  cloud:
+    gateway:
+      routes:
+        - id: hello-server
+          uri: lb://hello-server
+          predicates:
+            - Path=/hello-server/**
+          filters:
+            - StripPrefix=1
+        - id:  math-server
+          uri: lb://math-server
+          predicates:
+            - Path=/math-server/**
+          filters:
+            - StripPrefix=1

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello Server Index</title>
+</head>
+<body>
+<div>
+    <h1>i am <span style="color: #3b6a36">Hello</span> server index page.</h1>
+    <p>welcome</p>
+
+    <br>
+    GateWay proxy Hello Server <a href="http://localhost:9080/hello-server">http://localhost:9080/hello-server</a>
+    <br>
+    GateWay proxy Math Server <a href="http://localhost:9080/math-server">http://localhost:9080/math-server</a>
+    <br>
+
+    <h2>GateWay Proxy hello --> Math</h2>
+    <iframe src="http://localhost:9080/hello-server/hello/1?numbers=1,2,3,4,5,6,7,8,9,10">
+    </iframe>
+</div>
+</body>
+</html>

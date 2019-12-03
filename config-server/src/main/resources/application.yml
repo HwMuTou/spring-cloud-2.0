@@ -1,0 +1,26 @@
+server:
+  port: 9096
+
+spring:
+  application:
+    name: config-server
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+          searchLocations: classpath:config-app/
+          #        git:
+          #          uri: file://./config-repo/
+          #          uri: https://github.com/HwMuTou/config-repo
+
+          # Search in the 'config' directory of the repo. This generally wouldn't
+          # be used because the configs would be in the root directory, but because
+          # this example repo is hosting both the code and the configs, we're
+          # isolating the configuration files into their own directory.
+#          searchPaths: /
+management:
+  security:
+    enabled: false
+
