@@ -11,6 +11,8 @@ management:
       exposure:
         include: "*"
 
+# TODO fix interface 导致 不可用的接口被注册
+
 feign:
   hystrix:
     enabled: true
