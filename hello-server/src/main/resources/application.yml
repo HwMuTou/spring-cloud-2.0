@@ -12,6 +12,8 @@ management:
         include: "*"
 
 # TODO fix interface 导致 不可用的接口被注册
+# https://github.com/spring-cloud/spring-cloud-netflix/issues/466
+# https://github.com/spring-projects/spring-framework/issues/22154
 
 feign:
   hystrix:
