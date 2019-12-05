@@ -17,4 +17,4 @@ management:
 
 feign:
   hystrix:
-    enabled: true
+    enabled: true # If true, an OpenFeign client will be wrapped with a Hystrix circuit breaker. default false.
