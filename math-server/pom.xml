@@ -7,7 +7,7 @@
     <groupId>com.hw.service</groupId>
     <artifactId>math-server</artifactId>
     <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
+    <version>0.0.1-SNAPSHOT</version>
 
     <modules>
         <module>math-common</module>
