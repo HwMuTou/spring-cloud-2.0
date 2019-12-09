@@ -55,6 +55,7 @@
 	</dependencyManagement>
 
 	<build>
+		<!--TODO use simple jar package plugin.-->
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
