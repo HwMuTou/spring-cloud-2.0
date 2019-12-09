@@ -24,7 +24,6 @@
         <module>hystrix-server</module>
 
         <!--服务间的API接口包-->
-        <module>common</module>
         <module>math-server</module>
         <module>hello-server</module>
     </modules>

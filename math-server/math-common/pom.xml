@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.hw.service</groupId>
-	<artifactId>common</artifactId>
+	<artifactId>math-common</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>common</name>
+	<name>math-common</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>

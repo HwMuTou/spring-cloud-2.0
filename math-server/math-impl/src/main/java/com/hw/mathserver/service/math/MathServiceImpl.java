@@ -1,6 +1,5 @@
 package com.hw.mathserver.service.math;
 
-import com.hw.service.common.math.MathService;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.stream.Stream;
